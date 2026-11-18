@@ -1,46 +1,54 @@
-# O Mistério do Caixa
+# 🛒 O Mistério do Caixa
 
-Projeto educacional da turma 2B do curso Técnico em Desenvolvimento de Sistemas, desenvolvido em C# com .NET MAUI Blazor Hybrid para a disciplina Lógica e Linguagem de Programação.
+### 🔍 Desafio de investigação e depuração em C#
 
-## A história
+![C#](https://img.shields.io/badge/C%23-.NET-512BD4?logo=dotnet&logoColor=white)
+![Blazor](https://img.shields.io/badge/Blazor-Hybrid-6C3FA4)
+![Turma](https://img.shields.io/badge/Turma-2B-blue)
 
-Ao fim do expediente, um sistema de caixa recebeu três vendas e apresentou um total inesperado. Os registros parecem normais, mas o fechamento não corresponde ao que a equipe esperava. Sua missão é investigar o comportamento do programa usando o depurador do Visual Studio.
+## 📖 Sobre o projeto
 
-## Objetivo da investigação
+Projeto educacional desenvolvido em **C# e .NET MAUI Blazor Hybrid** para a turma **2B — Desenvolvimento de Sistemas**, na disciplina Lógica e Linguagem de Programação.
 
-Acompanhar a execução do cálculo, observar como os valores mudam e identificar a causa do resultado apresentado. A investigação deve ser feita antes de qualquer alteração no código.
+Um sistema de caixa apresenta um resultado inesperado no fechamento das vendas. Você será o **Analista de Sistemas** responsável por investigar, identificar e corrigir o problema!
 
-## Pré-requisitos
+## 🎯 Sua missão
 
-- Windows 10 versão 1809 ou posterior;
-- Visual Studio 2026 com a carga de trabalho **Desenvolvimento de interface do usuário de aplicativo multiplataforma do .NET**;
-- SDK .NET 10 e workload .NET MAUI para Windows.
+- 🔎 Investigar o erro no sistema.
+- 🐞 Utilizar o Debug do Visual Studio.
+- 🛠️ Corrigir o código C#.
+- ✅ Testar e validar o resultado.
+- 📝 Preencher o relatório de investigação.
 
-## Clonar e abrir
+## 🚀 Como começar
 
-```powershell
-git clone <URL-DO-REPOSITORIO>
-cd MisterioDoCaixa
-```
+1. Clone o repositório:
 
-Abra `MisterioDoCaixa.slnx` no Visual Studio. Confirme que `MisterioDoCaixa` é o projeto de inicialização e que o destino selecionado é **Windows Machine**.
+   ```bash
+   git clone <URL-DO-REPOSITORIO>
+   ```
 
-## Executar e depurar
+2. Abra `MisterioDoCaixa.slnx` no Visual Studio 2026, com .NET 10 e a carga de trabalho .NET MAUI instalados.
+3. Selecione **Windows Machine** para executar o aplicativo.
 
-1. Abra `MisterioDoCaixa/Services/CaixaService.cs`.
-2. Pressione **F9** em uma instrução do método `CalcularTotal()` para criar um breakpoint.
-3. Pressione **F5** para iniciar o aplicativo em modo Debug.
-4. Clique em **Calcular Total** e aguarde o Visual Studio interromper a execução.
-5. Use **F10 (Step Over)** para executar a instrução atual sem entrar nos métodos chamados.
-6. Use **F11 (Step Into)** para entrar em uma chamada de método quando quiser examiná-la em detalhes.
-7. Observe `venda` e `total` nas janelas **Locais**, **Autos** ou **Inspeção**.
+## 🐞 Executar e depurar
 
-## Entrega da atividade
+| Tecla | Função |
+|---|---|
+| **F5** | Iniciar o aplicativo em modo Debug |
+| **F9** | Adicionar um breakpoint |
+| **F11** | Avançar a execução passo a passo, entrando em métodos chamados |
 
-Depois da investigação, faça a correção em sua própria cópia, execute novamente o aplicativo e confirme o comportamento. Entregue:
+Observe as variáveis durante a execução e descubra a causa do problema antes de modificar o código.
 
-- o código corrigido;
-- um breve registro explicando o que você observou durante a depuração;
-- uma descrição da alteração realizada e do resultado obtido depois dela.
+## 📋 Entrega
 
-Não publique credenciais, pastas de compilação nem arquivos pessoais no repositório.
+Entregue o código corrigido e a **Ficha de Investigação de Bug**, preenchida com o erro identificado, a correção realizada e o resultado do teste.
+
+---
+
+**🎓 Turma 2B — Lógica e Linguagem de Programação**
+
+> 💡 Um bom programador não apenas corrige erros: ele investiga, compreende e testa suas soluções.
+
+**Boa investigação! 🚀**
