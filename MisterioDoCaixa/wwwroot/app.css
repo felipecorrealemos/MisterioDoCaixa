@@ -1,0 +1,30 @@
+:root { font-family: "Open Sans", "Segoe UI", sans-serif; color: #243447; background: #eef2f6; }
+html, body, #app { min-height: 100%; margin: 0; }
+body { background: linear-gradient(145deg, #e8eef4 0%, #f7f9fb 55%, #e9f0ef 100%); }
+h1:focus, button:focus { outline: none; }
+
+.cashier-page { min-height: 100vh; display: grid; place-items: center; padding: 2rem 1rem; }
+.cashier-card { position: relative; width: min(100%, 560px); padding: clamp(1.5rem, 5vw, 2.75rem); border: 1px solid rgba(35, 65, 85, .1); border-radius: 1.25rem; background: rgba(255, 255, 255, .96); box-shadow: 0 1.25rem 3.5rem rgba(25, 52, 70, .12); }
+.restart-button { position: absolute; top: 1rem; right: 1rem; padding: .35rem .7rem; border: 1px solid #cbd8dd; border-radius: .55rem; color: #526570; background: #f4f7f8; font-size: .82rem; font-weight: 600; }
+.restart-button:hover, .restart-button:focus { border-color: #9db1ba; color: #315f6b; background: #eaf0f2; }
+.eyebrow { display: inline-block; margin-bottom: .55rem; color: #54737b; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+h1 { margin-bottom: .4rem; color: #1f3a49; font-size: clamp(1.8rem, 6vw, 2.5rem); font-weight: 700; }
+.subtitle { color: #667985; font-size: 1.05rem; }
+.sales-panel { overflow: hidden; border: 1px solid #dfe7eb; border-radius: .85rem; }
+.sales-panel h2 { margin: 0; padding: 1rem 1.2rem; background: #f4f7f8; color: #354f5d; font-size: 1rem; font-weight: 700; }
+.sale-row { display: flex; align-items: center; justify-content: space-between; padding: .9rem 1.2rem; border-bottom: 1px solid #edf1f3; color: #526570; }
+.sale-row:last-child { border-bottom: 0; }
+.sale-row strong { color: #273f4c; }
+.btn-primary { border-color: #315f6b; background-color: #315f6b; font-weight: 700; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active { border-color: #254c56 !important; background-color: #254c56 !important; }
+.result-panel { padding: 1.15rem; border: 1px solid #b9d6cf; border-radius: .85rem; background: #edf8f4; }
+.result-panel span, .result-panel strong { display: block; }
+.result-panel span { color: #4c6d65; font-size: .9rem; }
+.result-panel strong { margin-top: .15rem; color: #214f44; font-size: 1.8rem; }
+#blazor-error-ui { display: none; position: fixed; right: 0; bottom: 0; left: 0; z-index: 1000; padding: .8rem 1.25rem; background: #fff3cd; box-shadow: 0 -1px 4px rgba(0, 0, 0, .15); }
+#blazor-error-ui .dismiss { position: absolute; right: .75rem; cursor: pointer; }
+
+@media (max-width: 420px) {
+    .cashier-page { padding: 1rem .75rem; }
+    .cashier-card { border-radius: 1rem; }
+}
